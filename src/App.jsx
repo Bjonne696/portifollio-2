@@ -1,19 +1,19 @@
-// /src/App.jsx
-import Portfolio from './components/portifolio'; // Adjust the path as necessary
+// src/App.jsx
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Portfolio from './components/Portfolio';
+import ProjectDetail from './components/ProjectDetail';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* You can add other components or content here */}
-      </header>
-      <main>
-        <Portfolio />
-      </main>
-      <footer>
-        {/* Footer content here */}
-      </footer>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Portfolio />} />
+          <Route path="/projects/:projectId" element={<ProjectDetail />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
