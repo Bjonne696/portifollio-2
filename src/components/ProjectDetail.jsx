@@ -15,7 +15,7 @@ const ProjectDetail = () => {
     <div className="max-w-4xl mx-auto p-4">
       <h2 className="text-3xl font-bold mb-4">{project.title}</h2>
       <img src={project.imageUrl} alt={project.title} className="w-full h-auto mb-4" />
-      <p className="text-xl mb-4">{project.description}</p>
+      <p className="text-xl mb-4">{project.info}</p>
       {/* Optionally display the intro if you decide to show it */}
       <p className="text-md mb-4 italic">"{project.intro}"</p>
       <div className="flex flex-col sm:flex-row sm:justify-start gap-4">
