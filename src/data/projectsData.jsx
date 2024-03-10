@@ -1,5 +1,3 @@
-// src/data/projectsData.jsx
-
 const Projects = [
     {
       id: 1,
