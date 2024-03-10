@@ -20,9 +20,9 @@ const Projects = [
     {
       id: 3,
       title: 'Project Exam 2',
-      info: 'The culmination of learnings in a practical exam project, implementing best practices and innovative solutions.',
+      info: 'Holidaze is a React-based accommodation booking site offering a dual interface for customers to book accommodations and for venue managers to manage listings, integrating seamlessly with the Noroff API for an efficient and user-friendly experience.',
       imageUrl: 'https://github.com/Bjonne696/portifollio-2/blob/main/src/assets/holidaze.png?raw=true',
-      repoUrl: 'Holidaze is a React-based accommodation booking site offering a dual interface for customers to book accommodations and for venue managers to manage listings, integrating seamlessly with the Noroff API for an efficient and user-friendly experience.',
+      repoUrl: 'https://github.com/Bjonne696/project-exam-2-holidaze.git',
       liveUrl: ' https://mellifluous-genie-846ce1.netlify.app'
     },
   ];
