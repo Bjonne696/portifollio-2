@@ -7,13 +7,13 @@ body {
 }
 
 h1 {
-  font-family: 'megavolt', sans-serif;
+  font-family: 'megavolt', Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 p {
-  font-family: 'citrus-gothic-rough', sans-serif;
+  font-family: 'citrus-gothic-rough', 'Times New Roman', serif;
   font-weight: 400;
   font-style: normal;
 }
