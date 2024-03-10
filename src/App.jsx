@@ -8,9 +8,10 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Homepage />} />
-          {/* Removed the route for project details */}
         </Routes>
       </div>
     </Router>
   );
 }
+
+export default App;
