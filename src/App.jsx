@@ -1,7 +1,7 @@
 // src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Portfolio from './components/Portfolio';
+import Homepage from './pages/Homepage';
 import ProjectDetail from './components/ProjectDetail';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Portfolio />} />
+          <Route path="/" element={<Homepage />} />
           <Route path="/projects/:projectId" element={<ProjectDetail />} />
         </Routes>
       </div>
