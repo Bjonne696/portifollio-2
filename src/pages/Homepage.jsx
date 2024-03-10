@@ -1,5 +1,7 @@
+// src/pages/HomePage.jsx
+
 import React from 'react';
-import ProjectCard from './ProjectCard';
+import ProjectCard from '../components/ProjectCard';
 import projects from '../data/projectsData';
 
 const Portfolio = () => {
