@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.custom-skew {
+  transform: skewX(-25deg);
+  transform-origin: bottom right;
+}
 
 
 h1 {
