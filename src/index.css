@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-gradient-to-r from-purple-900 via-purple-600 to-purple-400 min-h-screen;
-}
+
+
 
 h1 {
   font-family: 'megavolt', Arial, sans-serif;

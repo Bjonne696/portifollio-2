@@ -4,9 +4,26 @@ import projects from '../data/projectsData';
 
 const Portfolio = () => {
   return (
-    <div className="min-h-screen p-10">
-      <p className="text-white text-4xl font-bold mb-8">Click the links to be navigated to the repositories, or check out the live site!</p>
-      <div className="flex flex-wrap justify-center gap-4">
+    <div className="min-h-screen flex relative overflow-hidden">
+      {/* Left Side: Profile Image and Info with Diagonal Background */}
+      <div className="relative w-1/5 p-6 text-white flex-shrink-0">
+        <div className="absolute top-0 left-0 w-full h-full transform -skew-x-12 origin-bottom-right bg-blue-500"></div>
+        <div className="relative z-10 p-6">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Profile"
+            className="rounded-full w-32 h-32 mb-4"
+          />
+          <div>
+            <h2 className="text-2xl font-bold mb-2">Bjørn-Tore</h2>
+            <p>Email: example@example.com</p>
+            <p>Phone: +123456789</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Right Side: Project Cards */}
+      <div className="w-1/2 bg-green-500 flex flex-col items-start space-y-4 p-6">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
