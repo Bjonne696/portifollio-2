@@ -23,7 +23,7 @@ const Portfolio = () => {
       </div>
 
       {/* Right Side: Project Cards */}
-      <div className="flex-grow bg-green-500 flex flex-col items-start space-y-4 p-6">
+      <div className="flex-grow bg-green-500 custom-skew flex flex-col items-start">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}

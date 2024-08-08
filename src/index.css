@@ -7,6 +7,10 @@
   transform-origin: bottom right;
 }
 
+.reverse-custom-skew {
+  transform: skewX(25deg);
+  transform-origin: bottom right;
+}
 
 h1 {
   font-family: 'megavolt', Arial, sans-serif;

@@ -23,6 +23,22 @@ const Projects = [
       repoUrl: 'https://github.com/Bjonne696/project-exam-2-holidaze.git',
       liveUrl: ' https://mellifluous-genie-846ce1.netlify.app'
     },
+    {
+      id: 4,
+      title: 'Placeholder',
+      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit condimentum eros ut luctus. Nunc porta tortor at eros rutrum, a tincidunt dui malesuada. Integer auctor faucibus interdum. Sed posuere eros ut ornare ultrices..',
+      imageUrl: 'https://fastly.picsum.photos/id/964/200/300.jpg?hmac=4TmUg5VWiMt4hl9NxKOrX4W3N74VEbYJLbFeZbx3-tE',
+      repoUrl: 'github link goes here',
+      liveUrl: 'live link goes here'
+    },
+    {
+      id: 5,
+      title: 'Placeholder',
+      info: 'Nullam malesuada maximus odio quis ultricies. Sed finibus augue ac molestie accumsan. Suspendisse viverra magna a magna rutrum, convallis efficitur nibh iaculis. Donec sodales id neque id volutpat. Etiam leo nibh, pharetra sed neque quis, mattis commodo urna. In rutrum metus id quam finibus ultricies.',
+      imageUrl: 'https://fastly.picsum.photos/id/464/200/300.jpg?hmac=M4MNTPYELJRy0vZcT-h-EWmXkPdnXHvF9ufEPkhDt2g',
+      repoUrl: 'github link goes here',
+      liveUrl: 'live link goes here'
+    },
   ];
 
   export default Projects;
