@@ -4,7 +4,7 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="group block w-full overflow-hidden shadow-lg transform transition duration-500 hover:bg-yellow-300 flex flex-col justify-between hover:scale-105">
       <div className="p-6">
-        <h3 className="text-xl reverse-custom-skew font-semibold  mb-2">
+        <h3 className="text-xl font-semibold reverse-custom-skew mb-2">
           {project.title}
         </h3>
         <div className="hidden group-hover:block transition duration-500">
